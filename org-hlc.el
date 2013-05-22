@@ -54,7 +54,7 @@
   "If non-nil, hidden-lines cookies are shown, otherwise hidden.")
 
 (defgroup org-hlc nil
-  "Enhanced library for outline navigation in source code buffers."
+  "hidden-line-cookies for Org-mode."
   :prefix "org-hlc-"
   :group 'org)
 
