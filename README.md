@@ -1,9 +1,12 @@
 org-hlc
 =======
 
+## License and Authorship
+
 Copyright (C) 2013 Thorsten Jolitz
 
 Author: Thorsten Jolitz <tjolitz at gmail dot com>
+
 Keywords: org-mode, outline, visibility, overlays
 
 This file is (NOT YET) part of GNU Emacs.
@@ -38,7 +41,7 @@ executed.
 The appearance of the cookies can be customized by changing the values of
 four customizable variables: `org-hlc-hidden-lines-cookie-left-delimiter`
 (with default value "["), `org-hlc-hidden-lines-cookie-right-delimiter`
-(with default value `]), `org-hlc-hidden-lines-cookie-left-signal-char`
+(with default value "]"), `org-hlc-hidden-lines-cookie-left-signal-char`
 (with default value "#") and
 `org-hlc-hidden-lines-cookie-right-signal-char` (with default value "").
 
