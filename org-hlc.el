@@ -46,6 +46,11 @@
 ;; | *** Headline [#165]
 ;; `-----------------
 
+
+;;; Requires
+
+(require 'org)
+
 ;;; Code:
 
 ;;;; Variables
@@ -180,6 +185,15 @@
   (if org-hlc-hidden-lines-cookies-on-p
       (org-hlc-hide-hidden-lines-cookies)
     (org-hlc-show-hidden-lines-cookies)))
+
+;; From `outline-mode-easy-bindings'
+;; Copied from: http://emacswiki.org/emacs/OutlineMinorMode
+
+(defun outline-body-visible-p ()
+  (save-excursion
+    (outline-back-to-heading)
+    (outline-end-of-heading)
+    (not (outline-invisible-p))))
 
 (provide 'org-hlc)
 
